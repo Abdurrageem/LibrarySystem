@@ -16,6 +16,10 @@ namespace LibrarySystem
             Author = author;
             Genre = genre;
         }
-
+        public override string ToString()
+        {
+            //Defines the order in which the book is displayed
+            return $" \n{Title} + \n{Author} + \n{Genre} + \n{YearPublished} + \n{Id.ToString()}";
+        }
     }
 }

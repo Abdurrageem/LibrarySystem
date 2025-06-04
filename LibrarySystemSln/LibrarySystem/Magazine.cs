@@ -17,5 +17,10 @@ namespace LibrarySystem
             IssueNumber = issueNumber;
             Month = month;
         }
+
+        public override string ToString()
+        {
+             return $"\nTitle:{Title} \nMonth:{Month} \nYearPublished:{YearPublished} \nIssueNumber{IssueNumber} \nId:{Id.ToString()};             "
+        }
     }
 }
