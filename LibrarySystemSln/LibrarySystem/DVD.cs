@@ -17,6 +17,9 @@ namespace LibrarySystem
             Duration = duration;
         }
 
-
+        public override string ToString()
+        {
+            return $"\nTitle:{Title} \nYearPublished:{YearPublished} \nDuration:{Duration} \nDirector:{Director} \nID:{Id}";
+        }
     }
 }
