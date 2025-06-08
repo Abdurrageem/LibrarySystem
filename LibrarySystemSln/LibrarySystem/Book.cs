@@ -19,7 +19,7 @@ namespace LibrarySystem
         public override string ToString()
         {
             //Defines the order in which the book is displayed
-            return $" \n{Title} + \n{Author} + \n{Genre} + \n{YearPublished} + \n{Id.ToString()}";
+            return $" \nTitle:{Title} \nAuthor:{Author} \nGenre:{Genre} \nYearPublished:{YearPublished} \nId:{Id.ToString()}";
         }
     }
 }

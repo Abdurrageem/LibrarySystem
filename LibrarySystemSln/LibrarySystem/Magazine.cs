@@ -20,7 +20,7 @@ namespace LibrarySystem
 
         public override string ToString()
         {
-            return $"\nTitle:{Title} \nMonth:{Month} \nYearPublished:{YearPublished} \nIssueNumber{IssueNumber} \nId:{Id.ToString()}";             "
+            return $"\nTitle:{Title} \nMonth:{Month} \nYearPublished:{YearPublished} \nIssueNumber:{IssueNumber} \nId:{Id.ToString()}";            
         }
     }
 }

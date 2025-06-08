@@ -20,7 +20,10 @@ namespace LibrarySystem
 
         }
 
-        
+        public virtual void getDescription()
+        {
+            Console.WriteLine(" ");
+        }
 
     }
 }
