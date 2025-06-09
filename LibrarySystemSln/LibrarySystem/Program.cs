@@ -23,6 +23,7 @@ namespace LibrarySystem
 
             while (true)
             {
+                Console.Write("Welcome to my LibrarySystem");
                 Console.WriteLine("\nChoose an action:");
                 Console.WriteLine("1. Add an Item");
                 Console.WriteLine("2. Display Items");
@@ -243,7 +244,7 @@ namespace LibrarySystem
                                 if (itemRemove != null)
                                 {
                                     libraryItems.Remove(itemRemove);
-                                    Console.WriteLine("Item was removed!");
+                                    Console.WriteLine("Item was removed successfully!");
                                 }
                                 break;
                             case "3":
@@ -266,28 +267,6 @@ namespace LibrarySystem
                         return;
                 }
 
-                }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             }
 
 
@@ -296,6 +275,28 @@ namespace LibrarySystem
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
+
+
+
+
+
+
+
     }
+}
 
